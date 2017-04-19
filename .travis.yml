@@ -13,6 +13,7 @@ env:
     - CI_MATRIX_BUILD=true
     - CI_MATRIX_LINT=true
     - CI_MATRIX_TEST=true
+    - CI_MATRIX_PERF=true
 
 script:
   - |
